@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 513701720}
   - component: {fileID: 513701719}
   - component: {fileID: 513701722}
+  - component: {fileID: 513701723}
   m_Layer: 8
   m_Name: background_sprite
   m_TagString: Untagged
@@ -450,6 +451,18 @@ MonoBehaviour:
   mySound2: {fileID: 1758443875}
   myAnimator3: {fileID: 1302539914}
   mySound3: {fileID: 1302539917}
+--- !u!114 &513701723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513701718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82c1746db819d74c8b8ad769ee2d8ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4, type: 3}
       propertyPath: portName
-      value: COM5
+      value: COM7
       objectReference: {fileID: 0}
     - target: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4, type: 3}
       propertyPath: messageListener
@@ -873,7 +886,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
