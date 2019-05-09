@@ -41,14 +41,14 @@ TagManager:
   - name: background
     uniqueID: 3725249839
     locked: 0
+  - name: herring
+    uniqueID: 2446806311
+    locked: 0
   - name: whale
     uniqueID: 2586564155
     locked: 0
   - name: dolphin
     uniqueID: 1661058025
-    locked: 0
-  - name: herring
-    uniqueID: 2446806311
     locked: 0
   - name: Default
     uniqueID: 0
